@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>(Bisma Baig): Responsive Website</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+ </head>
+ <body>
+     <header>
+     <h1> Bisma Baig's portal page </h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="https://docs.google.com/document/d/1BBgoa6GyGcYEgRDDsK23QN-gHG8Cf5jN_UAdWDEujNU/edit" target="_blank">week 8 class exerciese</a>
+            <a href="https://docs.google.com/document/d/1DIbApL5isPxZICjEFjmth3KIcMZdCVBMwlp2ndpeC8o/edit" target="_blank">white paper:why office diversity matters.</a>
+            <a href="bismab.wordpress.com" target="_blank">bisma baigs portfolio</a>
+            <a href="https://github.com/bisma-baig" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/bisma-b-365818104/" target="_blank">LinkedIn</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+     </header>
+     
+   <main class="wrapper">
+     <!--
+     <img class="desktop" src="images/desktop.jpg" alt="A photo of me looking lost" />
+       
+     <img class="tablet" src="images/tablet.jpg" alt="Professional head shot of me" />
+       
+     <img class="phone" src="images/phone.png" alt="Cultural photo of me" />
+     -->  
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="images/desktop.jpg">
+            <source media="(min-width: 501px)" srcset="images/tablet.jpg">
+            <img src="images/phone.jpg" alt="That's me!" />
+        </picture>   
+       <h2 class="subheader">About Me</h2>
+       
+       
+       <p>Greetings my name is Bisma, I am a passionate artist. Art gives me the ability to express my true self helping others understand who I am. I am currently a student at Seattle Central College, apart of the Year Up program. This program bridges the gap for young people and provides them with hands-on career-building opportunities to take a step up into the professional world.
+        .</p>
+           
+      <p>Currently, I am learning skills in the technical field such as HTML, CSS, and JavaScript. With courses in Business Communications and IT.</p>
+      <p>The year Up motto is "High Expectations and High support", in the next year I hope to utilize my customer service skills to achieve my dreams of combining design and tech and working in the UX/UI field. </p>
+       <h3>Page Origin</h3>
+
+       <p>The HTML/CSS comes from Sara Newman's WEB110 class as taught at Seattle Central. This page provides a basis for students to build a responsive portal page.</p>
+
+       <p>Study how this page is built, and use it as a foundation for your portal or other sites!</p>
+       
+       <p>Copyright [2014-2020] [<a href="http://newmanix.com/sara.php">Sara Newman</a>]. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License, Version 2.0</a>
+        </p>
+
+     <footer>
+      <p><small>&copy; 2021 by <a href="contact.php">Contact (Bisma Baig) </a>, All Rights Reserved ~ </small></p>
+    </footer>
+  </main>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+     
+ </body>
+</html>
